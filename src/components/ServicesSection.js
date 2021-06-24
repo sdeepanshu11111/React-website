@@ -19,35 +19,35 @@ const ServicesSection = () => {
         <div className="cards">
           <div className="card">
             <div className="icon">
-              <img src={Clock} alt="" />
+              <img alt="icon" src={Clock} alt="" />
               <h3>Efficent</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
           <div className="card">
             <div className="icon">
-              <img src={TeamWork} alt="" />
+              <img alt="icon" src={TeamWork} alt="" />
               <h3>TeamWork</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
           <div className="card">
             <div className="icon">
-              <img src={Dia} alt="" />
+              <img alt="icon" src={Dia} alt="" />
               <h3>Diaphragm</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
           <div className="card">
             <div className="icon">
-              <img src={Money} alt="" />
+              <img alt="icon" src={Money} alt="" />
               <h3>Affordable</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
         </div>
       </div>
-      <img src={Home2} />
+      <img alt="Camera" src={Home2} />
     </div>
   );
 };
