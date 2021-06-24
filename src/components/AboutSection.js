@@ -23,7 +23,7 @@ const AboutSection = () => {
         </p>
         <button>Contact us</button>
       </div>
-      <img src={homePageImage} alt="" />
+      <img src={homePageImage} alt="guy with camera" />
     </div>
   );
 };
