@@ -1,10 +1,14 @@
 // import pages from
-import AboutPage from "./pages/aboutUs";
+import AboutPage from "./pages/AboutUsPage";
+
+// import global styles
+
+import GlobalStyle from "./components/GlobalStyled";
 
 function App() {
   return (
     <div className="App">
-      <h1>This is capture</h1>
+      <GlobalStyle />
       <AboutPage />
     </div>
   );
